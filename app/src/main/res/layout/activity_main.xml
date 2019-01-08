@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <Button
+        android:id="@+id/main_btn_need_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试需要登陆才能跳转的页面,没登陆自动跳转登陆页面" />
+
+    <Button
+        android:id="@+id/main_btn_need_login_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试需要登陆才能跳转的页面,没登陆只提示" />
+
+    <Button
+        android:id="@+id/main_btn_not_need_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试不需要登陆就能跳转的页面" />
+
+    <Button
+        android:id="@+id/main_btn_clear_login_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清楚登陆信息" />
+</LinearLayout>
