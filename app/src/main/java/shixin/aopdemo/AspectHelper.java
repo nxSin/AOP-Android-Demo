@@ -1,6 +1,6 @@
 package shixin.aopdemo;
 
-import shixin.aopdemo.aspect_combine.CombineHelper;
+import shixin.aopdemo.aspect_intertype.InterTypeHelper;
 
 /**
  * 切入点测试
@@ -24,6 +24,9 @@ public class AspectHelper {
 //        new ExceptionHelper().testStart();
 
         //测试组合
-        new CombineHelper().testStart();
+//        new CombineHelper().testStart();
+
+        //intertype测试
+        new InterTypeHelper().testStart();
     }
 }

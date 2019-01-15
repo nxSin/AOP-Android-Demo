@@ -28,25 +28,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         findView();
 
-//        testWithinCall();
         testAspect();
     }
 
+    /**
+     * 测试Aspect
+     */
     private void testAspect() {
         new AspectHelper().test();
-    }
-
-    /**
-     * within测试
-     */
-    private void testWithinCall() {
-//        WithInTestHelper withInTestHelper = new WithInTestHelper();
-//        //调用1
-//        withInTestHelper.testWithinOne();
-//        //调用2
-//        withInTestHelper.testWithinTwo();
-//        //调用3
-//        withInTestHelper.testWithinThree();
     }
 
     private void findView() {
@@ -75,7 +64,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 testNotNeedLogin();
                 break;
             case R.id.main_btn_clear_login_info:
-//                clearLoginInfo();
+                clearLoginInfo();
                 testLog(7);
                 break;
             default:
