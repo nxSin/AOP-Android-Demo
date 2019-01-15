@@ -8,7 +8,7 @@ import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
 
 /**
- * around
+ * Field切入
  */
 @Aspect
 public class AspectJFiled {

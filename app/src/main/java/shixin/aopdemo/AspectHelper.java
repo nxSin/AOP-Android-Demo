@@ -1,7 +1,6 @@
 package shixin.aopdemo;
 
-import shixin.aopdemo.aspect_around.AroundTestHelper;
-import shixin.aopdemo.aspect_filed.FiledHelper;
+import shixin.aopdemo.aspect_combine.CombineHelper;
 
 /**
  * 切入点测试
@@ -16,9 +15,15 @@ public class AspectHelper {
 //        new AfterReturnTestHelper().testAfterReturnOne();
 
         //Around
-        new AroundTestHelper().testAroundOne();
+//        new AroundTestHelper().testAroundOne();
 
         //Filed测试
-        new FiledHelper().testStart();
+//        new FiledHelper().testStart();
+
+        //异常捕获测试
+//        new ExceptionHelper().testStart();
+
+        //测试组合
+        new CombineHelper().testStart();
     }
 }

@@ -16,7 +16,7 @@ public class FiledHelper {
     /**
      * 年龄 int
      */
-    private int age = 0;
+    private int age;
 
     public void testStart() {
         Log.d(TAG, "testStart");
