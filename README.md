@@ -9,4 +9,6 @@ demo，Aspectj在Android的基本使用,主要有:
 #### 三. Exception
 #### 四. Combine
 #### 五. Inter-Type
-#### 六. 自定义处理-Annotation
+#### 六. 自定义处理-Annotation:
+* 代码logh目录：方法执行时长计算插入
+* 代码login目录：登陆鉴权插入
